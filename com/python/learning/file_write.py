@@ -1,6 +1,8 @@
 import random
 import string
 from pathlib import Path
+
+
 # from com.python.utilities.random_util import random_string
 
 
@@ -40,5 +42,4 @@ def write_and_read_from_file(file_path=default_file()):
     read_and_print_file_content(file_path)
 
 
-while 1 == 1:
-    write_and_read_from_file()
+write_and_read_from_file()
